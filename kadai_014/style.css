@@ -1,0 +1,33 @@
+html {
+    /* ルートのフォントサイズを20px = デフォルトサイズ16px*1.25 */
+    font-size: 125%;
+}
+
+body {
+    text-align: center;
+    font-family: "Arial", "Meiryo", sans-serif;
+}
+
+.google-fonts {
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+h1 {
+    /* ルートのフォントサイズの2倍 = 125*2 */
+    font-size: 250%;
+    letter-spacing: 1.2em;
+    text-shadow: 3px 3px 3px gray;
+    border-bottom: solid 3px rgb(115,115,114);
+}
+
+.text-skyb {
+    color: skyblue;
+}
+
+.text-pink {
+    color: rgb(255,192,203);
+}
+
+#basic > p {
+    font-weight: bold;
+}
